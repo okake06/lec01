@@ -23,8 +23,8 @@ int main (void){
   printf("Total value: %d\n",t);
 
   if( t > 7 ){
-    printf("You won\n");
+    printf("%s won\n",str);
   }else{
-    printf("You lost\n");
+    printf("%s lost\n",str);
   }
 }
