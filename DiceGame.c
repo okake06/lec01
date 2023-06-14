@@ -15,5 +15,11 @@ int main (void){
     t += y[i];
   }
   
-  printf("Total value: %d\n",t);  
+  printf("Total value: %d\n",t);
+
+  if( t > 7 ){
+    printf("You won\n");
+  }else{
+    printf("You lost\n");
+  }
 }
